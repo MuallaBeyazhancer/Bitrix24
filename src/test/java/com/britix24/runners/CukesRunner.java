@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/com/bitrix24/features/Login.feature",
         glue = "/com/britix24/step_definitions",
         tags = "@login",
-        dryRun = true
+        dryRun = false
 )
 public class CukesRunner {
 
